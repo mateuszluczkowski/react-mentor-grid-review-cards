@@ -12,6 +12,12 @@ export const TileStyled = styled.div`
       background === "white"
          ? theme.colors.primary.veryDarkBlackishBlue
          : theme.colors.primary.white};
+   @media (max-width: 1480px) {
+      padding: 35px 40px 50px 40px;
+   }
+   @media (max-width: 980px) {
+      padding: 20px 30px 35px 35px;
+   }
 `;
 
 export const MainText = styled.div`

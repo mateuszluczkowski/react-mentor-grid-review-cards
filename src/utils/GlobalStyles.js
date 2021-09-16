@@ -7,9 +7,11 @@ const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
     font-family:${({ theme }) => theme.typography.fontFamily}
 };
-body, #root {
-
-    height:100vh;
+ #root {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    min-height:100vh;
     width:100%;
     font-size:${({ theme }) => theme.typography.fontSize};
     background-color: ${({ theme }) => theme.colors.neutral.lightGrayishBlue};
