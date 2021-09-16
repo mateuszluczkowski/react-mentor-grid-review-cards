@@ -22,7 +22,7 @@ const Grid = styled.div`
    }
    @media (max-width: 980px) {
       grid-template-columns: repeat(1, 1fr);
-      grid-template-rows: repeat(5, 1fr);
+      grid-template-rows: repeat(5, auto);
       grid-template-areas: "tile1" "tile2" "tile4" "tile5" "tile3";
       max-width: 90%;
    }
