@@ -1,8 +1,8 @@
 {
-   "name": "react-grid-sunnyside",
+   "name": "react-mentor-grid-review-cards",
    "version": "0.1.0",
    "private": true,
-   "homepage": "https://mateuszluczkowski.github.io/react-mentor-grid-sunnyside/",
+   "homepage": "https://mateuszluczkowski.github.io/react-mentor-grid-review-cards/",
    "dependencies": {
       "@testing-library/jest-dom": "^5.14.1",
       "@testing-library/react": "^11.2.7",
